@@ -2,7 +2,6 @@
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
-
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Ruby Morse Decoder ](#-ruby-morse-decoder-)
   - [🛠 Built With ](#-built-with-)
@@ -11,6 +10,7 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Install](#install)
     - [Usage ](#usage-)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -20,8 +20,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Ruby Morse Decoder <a name="about-project"></a>
-_**Ruby Morse Decoder**_ can be used to decode messages written in [morse code](https://en.wikipedia.org/wiki/Morse_code).
+# 📖 Ruby Morse Decoder <a name="about-the-project"></a>
+ _**Morse Decoder**_ built with [Ruby](https://www.ruby-lang.org/en/) is a tool that allows users to convert a Morse code into human readable text. It takes a string of Morse code as an input. [Morse code](https://en.wikipedia.org/wiki/Morse_code) is a system of communication that uses a series of dots and dashes to represent letters, numbers, and symbols.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -39,7 +39,9 @@ _**Ruby Morse Decoder**_ can be used to decode messages written in [morse code](
 
 ### Key Features <a name="key-features"></a>
 
-- Decode morse messages
+- Decodes a morse character
+- Decodes a morse word
+- Decodes a morse message
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,7 +53,8 @@ _**Ruby Morse Decoder**_ can be used to decode messages written in [morse code](
 
 In order to run this project you need:
 
-- [Ruby](https://www.ruby-lang.org/en/) installed and running
+- [Ruby](https://www.ruby-lang.org/en/) installed and running. To get more information, read the [installation instructions](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md).
+- You should be able to use [IRB](https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features).
 ### Setup
 
 Clone this repository to your desired folder:
@@ -61,9 +64,21 @@ Clone this repository to your desired folder:
   cd Ruby-Morse-Decoder
 ```
 
+### Install
+
+Install thr project dependencies with:
+
+```
+  bundle install
+```
+
 ### Usage <a name="usage"></a>
 
-Convert morse code into messages.
+To run the project, execute the following command:
+
+```
+  ruby decode_message.rb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
